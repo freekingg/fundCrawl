@@ -11,8 +11,9 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
+    "dev": "node script/dev.js",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && cp -rf src/chrome build/",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
